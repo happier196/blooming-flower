@@ -14,6 +14,12 @@ The **complete flower head, petals, hinge mechanism and cone are 75% of their or
 
 **[Download all current STLs](https://github.com/happier196/blooming-flower/raw/refs/heads/main/Print_Ready_STLs.zip)** · [Individual parts](stl/)
 
+## Blender animation
+
+**[Download the animated Blender model](https://github.com/happier196/blooming-flower/raw/refs/heads/main/Proportional_27cm_Flower.blend)**. Save the file and open it in Blender. Select the **COMPLETE_FLOWER** scene, place the pointer over the 3D viewport and press **Space** to play or pause the opening-and-closing loop.
+
+The animation runs from frame **1 (closed)** through **61 (open)** to **121 (closed again)** at 30 fps. **FLOWER_HEAD_CLOSEUP** shows the head mechanism; **BASE_DRIVE_DETAIL** shows the servo linkage. **PRINT_PARTS** contains one example of each unique printable part; use the quantities below when printing.
+
 ## Print quantities
 
 There are **12 unique files and 24 pieces**, including the optional shim. Print three of each petal design and alternate them around the hub. Number 06 is omitted because the stem and cone are one part.
@@ -59,3 +65,4 @@ Print one inner petal, one outer petal, the hub, one 19.5 mm link and the servo 
 All 12 exported STLs passed the [mesh audit](print-audit.json). The assembly passed 61 sampled collision checks with approximately 0.71 mm sampled link-to-connector clearance. [Motion and size results](validation.json). Physical fit, strength and motor performance remain untested.
 
 This is a reconstruction inspired by the visible Jiří Praus flower mechanism, with an independently designed SG90 base; it is not the creator's original CAD.
+
