@@ -1,140 +1,145 @@
 {
-  "status": "STL mesh audit passed; printer-specific slicing and physical test still required",
+  "status": "passed",
   "units": "millimetres",
-  "repair_weld_tolerance_mm": 1e-05,
-  "all_dimensions_preserved_within_mm": 0.001,
+  "physically_tested": false,
   "printer_model": "unknown",
-  "material_and_nozzle": "not confirmed; guide assumes PLA and 0.4 mm",
   "parts": [
     {
       "file": "01_hex_hub_with_mounting_holes.stl",
-      "triangles": 6140,
+      "triangles": 6168,
       "valid_binary_length": true,
       "dimensions_mm": [
-        43.763153076171875,
-        42.61948013305664,
-        9.199999809265137
+        32.822364807128906,
+        31.964611053466797,
+        6.899999618530273
       ],
       "min_z": 0.0,
+      "components": 1,
       "nonmanifold_edges": 0,
       "winding_errors": 0,
       "degenerate_triangles": 0,
       "duplicate_triangles": 0,
-      "volume_mm3": 3539.5430663800134,
-      "bed_contact_area_mm2": 806.821386884777,
-      "sha256": "287513f3047afc19ecdcbf2440cc914936f0288f5cbd9e395a1c0c09818d2537"
+      "volume_mm3": 1451.948351084957,
+      "bed_contact_area_mm2": 447.91640442741755,
+      "sha256": "58390eac8c9afe75c201c045ef7396f6a0fdffb1d6bf45b02d680aa7c1947169"
     },
     {
       "file": "02_inner_petal.stl",
-      "triangles": 7036,
+      "triangles": 7054,
       "valid_binary_length": true,
       "dimensions_mm": [
-        42.694087982177734,
-        112.15499877929688,
-        50.69133377075195
+        32.020565032958984,
+        84.11624908447266,
+        38.01850128173828
       ],
       "min_z": 0.0,
+      "components": 1,
       "nonmanifold_edges": 0,
       "winding_errors": 0,
       "degenerate_triangles": 0,
       "duplicate_triangles": 0,
-      "volume_mm3": 5027.957931574787,
+      "volume_mm3": 2113.9978344533347,
       "bed_contact_area_mm2": 0,
-      "sha256": "bfb4731bf99422d5fa951f3d0e0d069b0f941b7aab7fefb0f9344ab8f70ddc0d"
+      "sha256": "53c195584f90169ac8c650a98d350063281075b29f0319cd540cb1b7a1f1fd64"
     },
     {
       "file": "03_outer_petal.stl",
-      "triangles": 7068,
+      "triangles": 7086,
       "valid_binary_length": true,
       "dimensions_mm": [
-        42.71519088745117,
-        113.71500396728516,
-        54.04649353027344
+        32.03639221191406,
+        85.28624725341797,
+        40.53487014770508
       ],
       "min_z": 0.0,
+      "components": 1,
       "nonmanifold_edges": 0,
       "winding_errors": 0,
       "degenerate_triangles": 0,
       "duplicate_triangles": 0,
-      "volume_mm3": 5570.90157853105,
+      "volume_mm3": 2343.0513225743466,
       "bed_contact_area_mm2": 0,
-      "sha256": "03d31facbb706ee90b7bed2266f760d173a8a7c3b67b321b1e0348b766bb0318"
+      "sha256": "a2283c1eb83ab4c1a26271a81ad166f201d958a2380712e106170ff1a6dced24"
     },
     {
-      "file": "04_connecting_rod_26mm.stl",
-      "triangles": 772,
+      "file": "04_connecting_rod_19p5mm.stl",
+      "triangles": 770,
       "valid_binary_length": true,
       "dimensions_mm": [
-        4.400000095367432,
-        30.400001525878906,
-        2.000002145767212
+        3.4000000953674316,
+        22.900001525878906,
+        1.5000016689300537
       ],
       "min_z": 0.0,
+      "components": 1,
       "nonmanifold_edges": 0,
       "winding_errors": 0,
       "degenerate_triangles": 0,
       "duplicate_triangles": 0,
-      "volume_mm3": 173.27790164917113,
-      "bed_contact_area_mm2": 86.63895388283161,
-      "sha256": "755569c0bd40621e6f5ecd968be54d505ed8051cde8e7507910e2a3055c15953"
+      "volume_mm3": 71.0053691757632,
+      "bed_contact_area_mm2": 47.33691309161349,
+      "sha256": "c181a432d102cd4436caed3bb50e0ea390fe51b404375a186f0fe7aff5dcdccb"
     },
     {
       "file": "05_slim_stem_and_conical_connector.stl",
-      "triangles": 20942,
+      "triangles": 20558,
       "valid_binary_length": true,
       "dimensions_mm": [
-        41.0,
-        41.0,
-        167.0
+        30.75,
+        30.75,
+        107.75
       ],
       "min_z": 0.0,
+      "components": 1,
       "nonmanifold_edges": 0,
       "winding_errors": 0,
       "degenerate_triangles": 0,
       "duplicate_triangles": 0,
-      "volume_mm3": 8637.865061140892,
-      "bed_contact_area_mm2": 34.96012763833278,
-      "sha256": "82a7b7247dcbe2b6d1304b6bd8978c2a594a9794aa15180ccd1673a1894c7d09"
+      "volume_mm3": 3655.8210000499425,
+      "bed_contact_area_mm2": 19.665080707970446,
+      "sha256": "c8bf002c0337b1764c95778ab8da9fc95bf2b0b3267582dbd60727d37c5a01c2"
     },
     {
       "file": "07_base_cup.stl",
-      "triangles": 3594,
+      "triangles": 3730,
       "valid_binary_length": true,
       "dimensions_mm": [
-        124.0,
-        124.0,
+        96.0,
+        96.0,
         65.0
       ],
       "min_z": 0.0,
+      "components": 1,
       "nonmanifold_edges": 0,
       "winding_errors": 0,
       "degenerate_triangles": 0,
       "duplicate_triangles": 0,
-      "volume_mm3": 113447.58504365919,
-      "bed_contact_area_mm2": 11981.261979413583,
-      "sha256": "c4c4f43d6ddc476d066fcddd3aea1f2c5c880bd6d4727d739c74670093f9a821"
+      "volume_mm3": 84733.13813216818,
+      "bed_contact_area_mm2": 7146.662859567987,
+      "sha256": "16da658bcd63f77272fe6bc272bd4e16b2333e68acb9f42243c56db409c5ddb6"
     },
     {
       "file": "08_lid_with_stem_socket.stl",
-      "triangles": 2102,
+      "triangles": 2120,
       "valid_binary_length": true,
       "dimensions_mm": [
-        124.0,
-        124.0,
+        96.0,
+        96.0,
         17.0
       ],
       "min_z": 0.0,
+      "components": 1,
       "nonmanifold_edges": 0,
       "winding_errors": 0,
       "degenerate_triangles": 0,
       "duplicate_triangles": 0,
-      "volume_mm3": 37457.664491602576,
-      "bed_contact_area_mm2": 12027.305956272074,
-      "sha256": "f494838a5f9ae49f141f3a572ae4e2dc18a586b136d70c03f6b271c9285d999b"
+      "volume_mm3": 23269.101195654934,
+      "bed_contact_area_mm2": 7192.706748605036,
+      "sha256": "13e02813915af026334e667eb29d52f94c73df8bcf86d4bf27c810c6fe87e668"
     },
     {
       "file": "09_adjustable_SG90_cradle.stl",
-      "triangles": 166,
+      "triangles": 374,
       "valid_binary_length": true,
       "dimensions_mm": [
         50.0,
@@ -142,13 +147,14 @@
         19.0
       ],
       "min_z": 0.0,
+      "components": 1,
       "nonmanifold_edges": 0,
       "winding_errors": 0,
       "degenerate_triangles": 0,
       "duplicate_triangles": 0,
-      "volume_mm3": 11674.601287841799,
-      "bed_contact_area_mm2": 1828.0000305175781,
-      "sha256": "614613f7544500e65b485de18845ae236430f53b426c94d61c4af93facf172d5"
+      "volume_mm3": 11088.618373291669,
+      "bed_contact_area_mm2": 1650.404075872908,
+      "sha256": "25adc4a98956bac23b228f4f781ff7a4fc1a58755fc1157e109d8b67089cefb0"
     },
     {
       "file": "10_servo_shim_0p9mm.stl",
@@ -160,13 +166,14 @@
         0.899993896484375
       ],
       "min_z": 0.0,
+      "components": 1,
       "nonmanifold_edges": 0,
       "winding_errors": 0,
       "degenerate_triangles": 0,
       "duplicate_triangles": 0,
       "volume_mm3": 549.8962707519531,
       "bed_contact_area_mm2": 611.0,
-      "sha256": "c42480ae66fb49a0cea68aaec207364b4fa868d562288f93f97a963a02ff55ef"
+      "sha256": "54609f300f2c97527eb0a9caa71efbe0ec42cab6e71bbac476cff8208d110ea9"
     },
     {
       "file": "11_pushrod_clamp_clevis.stl",
@@ -178,13 +185,14 @@
         10.0
       ],
       "min_z": 0.0,
+      "components": 1,
       "nonmanifold_edges": 0,
       "winding_errors": 0,
       "degenerate_triangles": 0,
       "duplicate_triangles": 0,
-      "volume_mm3": 1208.2967152605447,
+      "volume_mm3": 1208.2967150828524,
       "bed_contact_area_mm2": 120.00000000000014,
-      "sha256": "82176e2a4a53dd46f9446762f0fa1f6f09de8202f64e5847e6c6d17ba429072a"
+      "sha256": "aee6fb1417c234c3c439f803a9a2e330c00a53802f420d6da86451bbc1e7d47d"
     },
     {
       "file": "12_servo_connecting_link_24mm.stl",
@@ -196,13 +204,14 @@
         2.600001811981201
       ],
       "min_z": 0.0,
+      "components": 1,
       "nonmanifold_edges": 0,
       "winding_errors": 0,
       "degenerate_triangles": 0,
       "duplicate_triangles": 0,
-      "volume_mm3": 319.18841242365005,
-      "bed_contact_area_mm2": 122.76477945642318,
-      "sha256": "d2e38979e7caa1125cce6a1d66e33c0ac94751673ac32bfa807ffe33328b0e07"
+      "volume_mm3": 319.18840732631446,
+      "bed_contact_area_mm2": 122.76477945642127,
+      "sha256": "8acb4bb1b6c5e6478ab4e3ad35a3e5d2329d4d619761e9b40826351d954545e2"
     },
     {
       "file": "13_glue_on_base_foot.stl",
@@ -214,13 +223,14 @@
         4.0
       ],
       "min_z": 0.0,
+      "components": 1,
       "nonmanifold_edges": 0,
       "winding_errors": 0,
       "degenerate_triangles": 0,
       "duplicate_triangles": 0,
-      "volume_mm3": 313.2628518281963,
-      "bed_contact_area_mm2": 78.31571295704907,
-      "sha256": "388901c7beed003e79dd9c1e778dad194061f4a45defa62979114eb2b6b5144d"
+      "volume_mm3": 313.2628511553575,
+      "bed_contact_area_mm2": 78.31571278883939,
+      "sha256": "1265129208ef4e01f602871b35d93397a1ba6df3faf6e92a69d45b33767afd6b"
     }
   ]
 }
