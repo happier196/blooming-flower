@@ -1,0 +1,110 @@
+[
+  {
+    "file": "01_hex_hub_with_mounting_holes.stl",
+    "quantity": 1,
+    "size_mm": [
+      43.763153076171875,
+      42.61948013305664,
+      9.199999809265137
+    ]
+  },
+  {
+    "file": "02_inner_petal.stl",
+    "quantity": 3,
+    "size_mm": [
+      42.694087982177734,
+      112.15499877929688,
+      50.69133377075195
+    ]
+  },
+  {
+    "file": "03_outer_petal.stl",
+    "quantity": 3,
+    "size_mm": [
+      42.71519088745117,
+      113.71500396728516,
+      54.04649353027344
+    ]
+  },
+  {
+    "file": "04_connecting_rod_26mm.stl",
+    "quantity": 6,
+    "size_mm": [
+      4.400000095367432,
+      30.400001525878906,
+      2.000002145767212
+    ]
+  },
+  {
+    "file": "05_slim_stem_and_conical_connector.stl",
+    "quantity": 1,
+    "size_mm": [
+      41.0,
+      41.0,
+      167.0
+    ]
+  },
+  {
+    "file": "07_base_cup.stl",
+    "quantity": 1,
+    "size_mm": [
+      124.0,
+      124.0,
+      65.0
+    ]
+  },
+  {
+    "file": "08_lid_with_stem_socket.stl",
+    "quantity": 1,
+    "size_mm": [
+      124.0,
+      124.0,
+      17.0
+    ]
+  },
+  {
+    "file": "09_adjustable_SG90_cradle.stl",
+    "quantity": 1,
+    "size_mm": [
+      50.0,
+      38.0,
+      19.0
+    ]
+  },
+  {
+    "file": "10_servo_shim_0p9mm.stl",
+    "quantity": 1,
+    "size_mm": [
+      23.5,
+      26.0,
+      0.899993896484375
+    ]
+  },
+  {
+    "file": "11_pushrod_clamp_clevis.stl",
+    "quantity": 1,
+    "size_mm": [
+      12.0,
+      17.0,
+      10.0
+    ]
+  },
+  {
+    "file": "12_servo_connecting_link_24mm.stl",
+    "quantity": 1,
+    "size_mm": [
+      6.0,
+      30.0,
+      2.600001811981201
+    ]
+  },
+  {
+    "file": "13_glue_on_base_foot.stl",
+    "quantity": 4,
+    "size_mm": [
+      10.0,
+      10.0,
+      4.0
+    ]
+  }
+]
